@@ -35,7 +35,7 @@
     /* Key fix: Constrain the card width */
     .register-card {
       width: 100%;
-      max-width: 450px; 
+      max-width: 550px; 
       border: none;
       border-radius: 20px;
     }

@@ -55,7 +55,7 @@
             <div class="col-md-6 mb-3">
               <div class="form-floating">
                 <input type="password" class="form-control" id="passInput" placeholder="Password">
-                <label for="passInput">Password</label>
+                <label for="passInput" class="text-dark">Password</label>
               </div>
             </div>
             <!-- Confirm Password -->
@@ -65,6 +65,11 @@
                 <label for="confirmInput">Confirm</label>
               </div>
             </div>
+          </div>
+
+           <div class="form-floating mb-3">
+            <input type="number" class="form-control" id="num" placeholder="Number">
+            <label for="num">Number</label>
           </div>
 
           <!-- Date -->
@@ -91,6 +96,24 @@
               </div>
             </div>
           </div>
+          <div class="form-floating mb-3">
+  <select class="form-select " id="roleSelect" aria-label="Floating label select example">
+    <option selected>Select role</option>
+    <option value="1">Developer</option>
+    <option value="2">Manager</option>
+    <option value="3">Student</option>
+  </select>
+  <label for="roleSelect">Work Role</label>
+</div>
+
+    <div class="form-floating mb-3">
+  <textarea 
+    class="form-control" 
+    id="addressInput" 
+    placeholder="Address" 
+    style="height: 100px"></textarea>
+  <label for="addressInput">Address</label>
+</div>
 
           <button type="submit" class="btn btn-teal w-100 shadow-sm">Register Now</button>
         </form>
